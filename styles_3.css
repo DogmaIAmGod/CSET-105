@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position:relative;
+    width:1200px;
+    height:300px;
+    margin:px auto;
+}
+
+.container .box{
+    position:relative;
+    width: 1490px;
+    height: auto;
+    background: rgb(251, 255, 214);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px
+}

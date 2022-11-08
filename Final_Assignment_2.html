@@ -1,0 +1,29 @@
+<!--James Douglas, Group 1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Assignment 2</title>
+</head>
+<body onload="quiz()">
+<div style = "height: 13.8cm; width: 16cm; background-color: rgb(225, 222, 222); align-items: center; justify-content: center; display: flex;">    
+<div style = "height: 12.8cm; width: 15cm; background-color: white;">
+    <br><br><br><br><br><br>
+        <h1 style="text-align:center;">What the fuck</h1>
+        <div style="width:15cm;margin-left: 5cm;">
+        <input type="radio" id="question1" name="Questions" value="a1" onclick="btnShift(this.value)"><label for="question1">text</label><br>
+        <input type="radio" id="question2" name="Questions" value="a2" onclick="btnShift(this.value)"><label for="question2">text</label><br>
+        <input type="radio" id="question3" name="Questions" value="a3" onclick="btnShift(this.value)"><label for="question3">text</label><br>
+        <input type="radio" id="question4" name="Questions" value="a4" onclick="btnShift(this.value)"><label for="question4">text</label><br>
+    </div>
+    <br><br><br>
+    <h5 style="text-align: center;visibility: hidden;">a</h5>
+    <button style="width:5cm;height:auto;margin-left: 5cm;visibility: hidden;" onclick="location.reload()">Restart</button>
+
+<button style="width:15cm;height: 2cm;" disabled=true; value="button" onclick="btnShift(this.value), checkCorrect()">Submit</button>
+</div>
+</div>
+
+    <script src="FJS_2.js"></script>
+</body>
+</html>

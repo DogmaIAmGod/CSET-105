@@ -1,0 +1,27 @@
+<!--James Douglas, Group 1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Assignment 4</title>
+</head>
+<body>
+<label for="passwordOut">Password: </label><input type="text" id="password_out"><br>
+<label for="passwordLength">Length: </label><input type="number" id="password_length" value="20" style="width:3rem" onchange="generatePassword()">
+<ul>
+    <li>
+        <input type="checkbox" id="include_capitals" onchange="generatePassword()"><label for="include_capitals">Uppercase [A-Z]</label>
+    </li>
+    <li>
+        <input type="checkbox" id="include_lowercase" onchange="generatePassword()"><label for="include_lowercase">Lowercase [a-z]</label>
+    </li>
+    <li>
+        <input type="checkbox" id="include_numbers" onchange="generatePassword()"><label for="include_numbers">Numbers [0-9]</label>
+    </li>
+    <li>
+        <input type="checkbox" id="include_special" onchange="generatePassword()"><label for="include_special">Special [!#$%&*-_?. ]</label>
+    </li>
+</ul>
+    <script src="FJS_4.js"></script>
+</body>
+</html>

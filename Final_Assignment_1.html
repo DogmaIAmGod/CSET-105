@@ -1,0 +1,33 @@
+<!--James Douglas, Group 1-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Final Assignment 1</title>
+</head>
+
+<body>
+    <div style="width:6cm;height: fit-content;background-color: bisque;">
+        <h4 style="text-align: center;margin: 0;">List Controls</h4>
+        <div>
+            <button style="float: left;width: 50%;" onclick="addItem()">Add item</button>
+            <button style="float: left;width: 50%;" onclick="removeItem()">Remove Item</button>
+        </div>
+        <br>
+        <h4 style="text-align: center;margin: 0;">Show Options</h4>
+        <div style="padding-left: 1.5cm;">
+            <div>
+                <input type="checkbox" id="bought_items" onclick="boughtItems()"><label for="bought_items">Bought Items</label>
+            </div>
+            <div>
+                <input type="checkbox" id="items_left"  onclick="itemsLeft()"><label for="items_left">Items Left</label>
+            </div>
+        </div>
+        <ul id="ul">
+        </ul>
+    </div>
+    <script src="FJS_1.js"></script>
+</body>
+
+</html>
